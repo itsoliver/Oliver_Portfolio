@@ -69,6 +69,36 @@ h2{
     margin-left: 30px;
 }
 
+.nav-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 18px;
+}
 
+.nav-bar-links {
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
 
+.nav-bar-links a {
+    padding-left: 20px;
+    display: inline-block;
+    list-style: none; 
+    text-decoration: none;
+    color: white;
+    transition: opacity .125s linear;
+}
 
+.nav-bar-links a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity .125s linear;
+}
+  
+.nav-bar-links a:visited {
+    color: inherit;
+    text-decoration: none;
+}
