@@ -44,8 +44,21 @@ h2{
     font-size: 50px;
 }
 
+.outline-button {
+    border: rgb(247, 240, 240) 2px solid;
+	padding: 12px 35px;
+	color: #ccc;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	margin-top: 7px;
+    margin-left: 20%;
+}
 
-  
- 
-
+.outline-button:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
 
