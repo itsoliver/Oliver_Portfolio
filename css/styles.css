@@ -1,0 +1,11 @@
+/** import fonts **/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+h2{
+    color: #EB233C;
+    font-family: 'Dancing Script', cursive;
+}
